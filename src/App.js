@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Signin from './components/Signin'
+import Signup from './components/Signup';
+import './App.css'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav className='grammerly'>
+        <img className='img' src='https://static.grammarly.com/assets/files/cb6ce17d281d15f2c819035bcd430b0e/ukraine_grammarly_logo.svg' alt='image' />
+      </nav>
+      <Signin />
+      {/* <Signup /> */}
     </div>
   );
 }

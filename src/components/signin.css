@@ -1,0 +1,137 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+} 
+.sign-in-parent {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f4f4;
+    gap: 5vw;
+  }
+
+  .header {
+    display: flex;
+    margin: 20px 0px 0px 47px;
+}
+  
+  .sign-in-form-container {
+    width: 30vw;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+  }
+  h1 {
+    margin-top: 0px;
+}
+
+button.submit-button {
+    background-color: #11a683;
+}
+
+button.social-media {
+    background-color: white;
+    color: black;
+    display: flex;
+    border: 1px solid #d5cdcd;
+}
+
+p.p3 {
+    margin-left: 3vw;
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    opacity: 80%;
+}
+
+p.p2 {
+    margin-left: 12vw;
+    opacity: 80%;
+    /* text-align: center; */
+}
+  .sign-in-form-container input {
+    display: block;
+    height: 6vh;
+    width: 24vw;
+    margin-left: 3vw;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    margin-top: 3vh;
+  }
+
+  button.social-media {
+    display: flex;
+}
+
+img.image {
+    width: 22px;
+    margin: 5px;
+}
+
+p.s-text {
+    margin-left: 15px;
+}
+
+button.social-media {
+    display: flex;
+}
+
+.arrow1 {
+    margin: 10px 0px 0px 160px;
+}
+
+.arrow2 {
+    margin: 10px 0px 0px 149px;
+}
+
+.arrow3 {
+    margin: 10px 0px 0px 170px;
+}
+
+button.submit-button {
+    font-weight: bold;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+}
+input.UserID {
+    /* padding: 10px; */
+    padding-left: 10px;
+}
+
+button.social-media {
+    display: flex;
+}
+
+a.p1 {
+    margin-left: 90px;
+    margin-top: 10px;
+}
+  
+  .sign-in-form-container button {
+    display: block;
+    height: 6vh;
+    width: 24vw;
+    margin-left: 3vw;
+    border-radius: 3px;
+    margin-top: 3vh;
+    cursor: pointer;
+  }
+  .signup-option-text {
+    color: #4c57b6;
+  }
+  
+  .sign-in-question {
+    opacity: 50%;
+  }
+  
+  .signin-error-display p {
+    opacity: 100%;
+    text-align: center;
+  }
+  
